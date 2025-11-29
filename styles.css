@@ -271,3 +271,33 @@ footer {
     .nav-socials { display: none; } /* Hide socials in nav on small mobile to save space */
     .hamburger { display: block; font-size: 1.5rem; }
 }
+.coursework-section {
+    margin-top: 40px;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.course-card {
+    padding: 12px 18px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border-left: 4px solid #4a90e2;
+    transition: transform 0.15s ease-in-out, background 0.15s;
+}
+
+.course-card:hover {
+    background: #e9f2ff;
+    transform: translateY(-3px);
+}
